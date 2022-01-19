@@ -11,3 +11,11 @@ def decode_char(char)
     return value if key == char
   end
 end
+
+def decode_word(word)
+  str_val = ''
+  word.split.each do |char|
+    str_val += decode_char(char)
+  end
+  str_val
+end
