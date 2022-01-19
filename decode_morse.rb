@@ -29,6 +29,7 @@ def decode(msg)
   msg_sentence.strip
 end
 
-print decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
-
+print decode_char('.-')
 print decode_word('-- -.--')
+print decode('-- -.--   -. .- -- .')
+print decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
